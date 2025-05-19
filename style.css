@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+/* Borders for paragraph before footer */
+section p {
+    border-top: 4px solid #222;
+    border-bottom: 4px solid #222;
+    padding: 15px;
+}
+
+/* Bunny image styling */
+.bunny-image {
+    max-width: 350px;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+}
+
+/* List with picture marker */
+nav ul {
+    list-style-image: url('https://cdn.shopify.com/s/files/1/0040/8997/0777/files/Cute_Bunny_7d_1024x1024.jpg?v=1698453869');
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
